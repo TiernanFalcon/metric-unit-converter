@@ -1,0 +1,42 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>Metric/Imperial Unit Converter</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+            <!-- yoinked the code below from another project to remind me
+                 for webapp icon creation -->
+        <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest"> -->
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <main>
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <input id="input" type="text" placeholder="0">
+            <button id="convert-btn">Convert</button>
+        </main>
+        <div class="container">
+            <div class="measurement-box">
+                <h3>Temperature (Celsius/Fahrenheit)</h3>
+                <p id="temperature">0 Celsius = 32 Fahrenheit | 0 Fahrenheit = -17.777 Celsius</p>
+            </div>
+            <div class="measurement-box">
+                <h3>Length (Meter/Feet)</h3>
+                <p id="length">0 meters = 0 feet | 0 feet = 0 meters</p>
+            </div>
+             <div class="measurement-box">
+                <h3>Volume (Liters/Gallons)</h3>
+                <p id="volume">0 liters = 0 gallons | 0 gallons = 0 liters</p>
+            </div>
+             <div class="measurement-box">
+                <h3>Mass (Kilograms/Pounds)</h3>
+                <p id="mass">0 kilos = 0 pounds | 0 pounds = 0 kilos</p>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
